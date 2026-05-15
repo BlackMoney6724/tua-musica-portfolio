@@ -1,0 +1,57 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background: #0a0a0a;
+  color: #eee;
+  line-height: 1.6;
+}
+
+header {
+  background: #111;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+nav a {
+  color: #ddd;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.music-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.track {
+  background: #1a1a1a;
+  border-radius: 12px;
+  padding: 1.2rem;
+  text-align: center;
+}
+
+.track img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+audio {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #111;
+  margin-top: 3rem;
+}
